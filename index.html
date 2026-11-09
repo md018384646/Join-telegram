@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#07091e">
+<title>Community Links</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;font-family:system-ui,-apple-system,"Noto Sans Bengali",sans-serif}
+body{
+ min-height:100svh;display:grid;place-items:center;overflow:hidden;padding:22px 16px;
+ background:
+  radial-gradient(circle at 15% 20%,#00d9ff38,transparent 32%),
+  radial-gradient(circle at 85% 78%,#ff24b83b,transparent 34%),
+  linear-gradient(135deg,#07091e,#171044 48%,#061d36);
+ position:relative;isolation:isolate
+}
+body:before{
+ content:"";position:fixed;inset:-35%;z-index:-2;pointer-events:none;
+ background:conic-gradient(from 0deg,transparent 0 12%,#00d9ff66 18%,transparent 27%,#ff24b866 39%,transparent 49%,#8c42ff66 62%,transparent 73%,#00ffc866 85%,transparent 95%);
+ filter:blur(55px);animation:aurora 18s linear infinite
+}
+.wrap{width:min(100%,390px);display:flex;flex-direction:column;align-items:center;gap:28px;text-align:center}
+.heading{
+ margin:0;font-size:clamp(23px,6.4vw,30px);font-weight:1000;line-height:1.65;
+ background:linear-gradient(90deg,#63f6ff,#fff,#ff7bdc,#ffe879,#80ffb5,#63f6ff);
+ background-size:300% auto;-webkit-background-clip:text;background-clip:text;color:transparent;
+ filter:drop-shadow(0 0 12px #20dfff9c);animation:shine 4s linear infinite
+}
+.buttons{width:100%;display:flex;flex-direction:column;align-items:center;gap:24px}
+.social{
+ position:relative;width:min(88%,310px);min-height:78px;border-radius:21px;
+ display:flex;align-items:center;justify-content:center;gap:16px;color:#fff;text-decoration:none;
+ font-size:21px;font-weight:900;letter-spacing:.2px;
+ border:2px solid rgba(255,255,255,.95);outline:1px solid #ffffff55;outline-offset:4px;
+ text-shadow:0 2px 5px #00152b;
+ -webkit-tap-highlight-color:transparent;animation:pulse 1.7s ease-in-out infinite
+}
+.social svg{width:42px;height:42px;flex:none;filter:drop-shadow(0 2px 3px #00152b77)}
+.telegram{
+ background:linear-gradient(110deg,#00cfff,#1766ff 55%,#6545ff);
+ box-shadow:0 7px 0 #061b50,0 0 24px #00cfff99,inset 0 2px 10px #ffffff80
+}
+.whatsapp{
+ background:linear-gradient(110deg,#00e88a,#00a95a 55%,#087e71);
+ box-shadow:0 7px 0 #064a38,0 0 24px #00ff9a88,inset 0 2px 10px #ffffff80;
+ animation-delay:.35s
+}
+.social:active{filter:brightness(1.18);transform:scale(.97)}
+@keyframes aurora{to{transform:rotate(360deg) scale(1.08)}}
+@keyframes shine{to{background-position:300% center}}
+@keyframes pulse{0%,100%{scale:1}50%{scale:1.055}}
+@media(max-height:560px){.wrap{gap:14px}.buttons{gap:14px}.social{min-height:62px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important}}
+</style>
+</head>
+<body>
+<main class="wrap">
+ <h1 class="heading">🚀যে কোন সাইটের ফ্রি সিগনাল পেতে আমাদের টেলিগ্রামে জয়েন করুন<br>👇👇যোগাযোগ করুন👇👇</h1>
+ <nav class="buttons" aria-label="Social links">
+  <!-- Replace YOUR_TELEGRAM_USERNAME with your Telegram channel username. -->
+  <a class="social telegram" href="https://t.me/kingcrashhack" target="_blank" rel="noopener noreferrer" aria-label="Open Telegram channel">
+   <svg viewBox="0 0 240 240" aria-hidden="true"><path fill="#fff" d="M49 116.5 181.8 65.3c6.2-2.3 11.6 1.5 9.6 10.9l-22.6 106.5c-1.7 7.6-6.2 9.5-12.6 5.9l-35.1-25.9-16.9 16.3c-1.9 1.9-3.5 3.5-7.2 3.5l2.5-35.8 65.2-58.9c2.8-2.5-.6-3.9-4.3-1.4l-80.6 50.8-34.7-10.8c-7.5-2.4-7.7-7.5 1.9-11.2Z"/></svg>
+   <span>Telegram</span>
+  </a>
+  <!-- Replace 8801XXXXXXXXX with your WhatsApp number: country code + number, no plus or spaces. -->
+  <a class="social whatsapp" href="https://wa.me/8801342742911" target="_blank" rel="noopener noreferrer" aria-label="Open WhatsApp chat">
+   <svg viewBox="0 0 240 240" aria-hidden="true"><path fill="#fff" d="M120 27a91 91 0 0 0-78.1 137.7L30 210l47.1-11.6A91 91 0 1 0 120 27Zm0 165.5a74 74 0 0 1-37.7-10.3l-2.7-1.6-28 6.9 7.5-27.3-1.8-2.8A74.2 74.2 0 1 1 120 192.5Zm40.7-55.6c-2.2-1.1-13.1-6.5-15.1-7.2-2-.7-3.5-1.1-5 1.1-1.5 2.2-5.7 7.2-7 8.7-1.3 1.5-2.6 1.7-4.8.6-2.2-1.1-9.3-3.4-17.7-10.9-6.5-5.8-10.9-13-12.2-15.2-1.3-2.2-.1-3.4 1-4.5 1-1 2.2-2.6 3.3-3.9 1.1-1.3 1.5-2.2 2.2-3.7.7-1.5.4-2.8-.2-3.9-.6-1.1-5-12-6.9-16.4-1.8-4.3-3.7-3.7-5-3.8h-4.3c-1.5 0-3.9.6-5.9 2.8s-7.8 7.6-7.8 18.5 8 21.5 9.1 23c1.1 1.5 15.7 24 38 33.6 5.3 2.3 9.4 3.7 12.6 4.7 5.3 1.7 10.1 1.5 13.9.9 4.2-.6 13.1-5.4 15-10.6 1.9-5.2 1.9-9.6 1.3-10.6-.5-.9-2-1.5-4.2-2.6Z"/></svg>
+   <span>WhatsApp</span>
+  </a>
+ </nav>
+</main>
+</body>
+</html>
